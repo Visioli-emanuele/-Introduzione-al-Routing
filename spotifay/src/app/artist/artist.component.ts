@@ -37,7 +37,7 @@ export class ArtistComponent implements OnInit {
   getRouterParam = (params: ParamMap) =>
   {
   let atistId = params.get('id'); //Ottengo l'id dai parametri
-  console.log (atistId); //Stampo su console
+  console.log (atistId, this.artist); //Stampo su console
   //spotifyServiceObs va dichiarato
      this.spotifyServiceObs = this.service.getArtist(atistId!) ;
      this.spotifyServiceObs.subscribe((data)=>this.artist = data)

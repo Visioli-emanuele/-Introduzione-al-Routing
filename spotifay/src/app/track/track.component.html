@@ -1,3 +1,4 @@
+<p>{{track | json}}</p>
 <div *ngIf="track">
     <h1>{{ track.name }}</h1>
     <p>
@@ -6,5 +7,6 @@
     <p>
         <audio controls src="{{ track.preview_url }}"></audio>
     </p>
+
     <p><a href (click)="back()">Back</a></p>
 </div>

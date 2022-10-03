@@ -1,0 +1,168 @@
+//traks:
+{ "album": 
+ { "album_type": 
+ "single", 
+ "artists": 
+  [ { "external_urls": 
+  { "spotify": 
+  "https: //open.spotify.com/artist/3OKg7YbOIatODzkRIbLJR4" }, 
+ "href": 
+  "https: //api.spotify.com/v1/artists/3OKg7YbOIatODzkRIbLJR4", 
+ "id": 
+  "3OKg7YbOIatODzkRIbLJR4", 
+ "name": 
+  "TheFatRat", 
+ "type": 
+  "artist", 
+ "uri": 
+  "spotify: artist: 
+ 3OKg7YbOIatODzkRIbLJR4" }, 
+ { "external_urls": 
+  { "spotify": 
+  "https: //open.spotify.com/artist/4DTbdShHu2RPYEEMUp2XWV" }, 
+ "href": 
+  "https: //api.spotify.com/v1/artists/4DTbdShHu2RPYEEMUp2XWV", 
+ "id": 
+  "4DTbdShHu2RPYEEMUp2XWV", 
+ "name": 
+  "Anjulie", 
+ "type": 
+  "artist", 
+ "uri": 
+  "spotify:
+artist: 
+4DTbdShHu2RPYEEMUp2XWV" } ], 
+ "available_markets": 
+ [], 
+ "external_urls": 
+ { "spotify": 
+ "https: 
+//open.spotify.com/album/0F7ftNMhjvUDyDpWklGStR" }, 
+ "href": 
+ "https: 
+//api.spotify.com/v1/albums/0F7ftNMhjvUDyDpWklGStR", 
+ "id": 
+ "0F7ftNMhjvUDyDpWklGStR", 
+ "images": 
+ [ { "height": 
+ 640, 
+ "url": 
+ "https: 
+//i.scdn.co/image/ab67616d0000b27397ea027ac78c05d10422b588", 
+ "width": 
+ 640 }, 
+ { "height": 
+ 300, 
+ "url": 
+ "https: 
+//i.scdn.co/image/ab67616d00001e0297ea027ac78c05d10422b588", 
+ "width": 
+ 300 }, 
+ { "height": 
+ 64, 
+ "url": 
+ "https: 
+//i.scdn.co/image/ab67616d0000485197ea027ac78c05d10422b588", 
+ "width": 
+ 64 } ], 
+ "name": 
+ "Fly Away", 
+ "release_date": 
+ "2017-06-02", 
+ "release_date_precision": 
+ "day", 
+ "total_tracks": 
+ 1, 
+ "type": 
+ "album", 
+ "uri": 
+ "spotify: 
+album: 
+0F7ftNMhjvUDyDpWklGStR" }, 
+ "artists": 
+ [ { "external_urls": 
+ { "spotify": 
+ "https: 
+//open.spotify.com/artist/3OKg7YbOIatODzkRIbLJR4" }, 
+ "href": 
+ "https: 
+//api.spotify.com/v1/artists/3OKg7YbOIatODzkRIbLJR4", 
+ "id": 
+ "3OKg7YbOIatODzkRIbLJR4", 
+ "name": 
+ "TheFatRat", 
+ "type": 
+ "artist", 
+ "uri": 
+ "spotify: 
+artist: 
+3OKg7YbOIatODzkRIbLJR4" }, 
+ { "external_urls": 
+ { "spotify": 
+ "https: 
+//open.spotify.com/artist/4DTbdShHu2RPYEEMUp2XWV" }, 
+ "href": 
+ "https: 
+//api.spotify.com/v1/artists/4DTbdShHu2RPYEEMUp2XWV", 
+ "id": 
+ "4DTbdShHu2RPYEEMUp2XWV", 
+ "name": 
+ "Anjulie", 
+ "type": 
+ "artist", 
+ "uri": 
+ "spotify: 
+artist: 
+4DTbdShHu2RPYEEMUp2XWV" } ], 
+ "available_markets": 
+ [], 
+ "disc_number": 
+ 1, 
+ "duration_ms": 
+ 194267, 
+ "explicit": 
+ false, 
+ "external_ids": 
+ { "isrc": 
+ "SEUM71700411" }, 
+ "external_urls": 
+ { "spotify": 
+ "https: 
+//open.spotify.com/track/0hTrQoqDmFnA4S1PC265e1" }, 
+ "href": 
+ "https: 
+//api.spotify.com/v1/tracks/0hTrQoqDmFnA4S1PC265e1", 
+ "id": 
+ "0hTrQoqDmFnA4S1PC265e1", 
+ "is_local": 
+ false, 
+ "name": 
+ "Fly Away", 
+ "popularity": 
+ 68, 
+ "preview_url": 
+ null, 
+ "track_number": 
+ 1, 
+ "type": 
+ "track", 
+ "uri": 
+ "spotify: 
+track: 
+0hTrQoqDmFnA4S1PC265e1" }
+
+//artist:
+
+{ "external_urls": { "spotify": "https://open.spotify.com/artist/3OKg7YbOIatODzkRIbLJR4" }, 
+ "followers": { "href": null, "total": 1504987 }, 
+ "genres": [ "speedrun" ], "href": "https://api.spotify.com/v1/artists/3OKg7YbOIatODzkRIbLJR4", 
+ "id": "3OKg7YbOIatODzkRIbLJR4", "images": [ { "height": 1000, 
+ "url": "https://i.scdn.co/image/0b27f8c01fb5103926012ef7bb0b5b7223ebf0d4", "width": 1000 }, 
+ { "height": 640, "url": "https://i.scdn.co/image/b534e38e0d4d75be63125d10c6215b9966343206", 
+ "width": 640 }, { "height": 200, 
+ "url": "https://i.scdn.co/image/e65882894c3ef8792ac41f0dbbb702419c896eb8", "width": 200 }, 
+ { "height": 64, "url": "https://i.scdn.co/image/dba10b557f038946c41060b71650b3da1172b937", 
+ "width": 64 } ], "name": "TheFatRat", 
+ "popularity": 66, "type": "artist", 
+ "uri": "spotify:artist:3OKg7YbOIatODzkRIbLJR4" }
+
