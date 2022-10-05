@@ -1,1 +1,9 @@
-<p>album works!</p>
+<div *ngIf="album">
+    <h1>tipo:{{album.album_type}}</h1>
+    <h1>numero canzoni:{{album.tracks.items.track_number}}</h1>
+    <h1 *ngFor="let a of album.tracks.items " >titolo: {{a.name}}</h1>
+    <p>
+    </p>
+    <p><a href (click)="back()">Back</a></p>
+</div>
+

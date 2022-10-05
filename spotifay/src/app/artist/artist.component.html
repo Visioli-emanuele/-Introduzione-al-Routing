@@ -1,8 +1,12 @@
-<p>{{artist | json}}</p>
+
 <div *ngIf="artist">
     <h1>{{artist.name}}</h1>
+    <h1>numero followers: {{artist.followers.total}}</h1>
+    <h1>Generi: {{artist.genres}}</h1>
+    <h1>id: {{artist.id}}</h1>
+    <h1>popolarità: {{artist.popularity}}</h1>
+    <h1>tipo: {{artist.type}}</h1>
     <p>
-
     </p>
     <p><a href (click)="back()">Back</a></p>
 </div>

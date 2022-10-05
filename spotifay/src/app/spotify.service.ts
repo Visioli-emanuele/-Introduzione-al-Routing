@@ -6,6 +6,13 @@ import { environment } from 'src/environments/environment';
   providedIn: 'root'  
 })
 export class SpotifyService {
+    getAlbum(id: string) {
+      const url = `https://api.spotify.com/v1/albums/${id}`;
+      const headers = new HttpHeaders({
+        Authorization:environment.oauthToken});
+      
+      return this.http.get(url, { headers });
+    }
   //url per oauth: https://developer.spotify.com/console/get-search-item/
   //Ottengo il modulo HttpClient
   constructor(private http: HttpClient) { }
