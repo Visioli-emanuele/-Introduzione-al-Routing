@@ -1,4 +1,6 @@
+import { AuthorizedComponent } from "src/app/authorized/authorized.component";
+
 export const environment = {
   production: false,
-  oauthToken: "Bearer BQAHDqIlPUr_3b1U_Z5ynfARO2UUCGCCSPX1ye_1RxMYlQa9FtSgQNEv7wWq0JTm-zpHNPPgZbYzoBCm05iVfUYpF2YEHZFCMFOqev3zoKe6FOoIWuDJMsZ8qIkvf4rOQNHHpU5etWjl-rOG6D5bBGEBgWncsO3Hh6mPzFGa6PD91noFeiqkAow_jTviREKNt6g"
+  oauthToken: AuthorizedComponent.myArray
 };

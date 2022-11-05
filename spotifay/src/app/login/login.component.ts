@@ -1,7 +1,6 @@
 import { Component, OnInit } from "@angular/core";
 import { Router } from "@angular/router";
-import { ScopesBuilder } from "../shared/scopes-builder";
-import { AuthConfig } from "../shared/spotify-auth-config.i";
+import { AuthConfig } from "shared/spotify-auth-config.i";
 
 @Component({
   selector: 'app-login',

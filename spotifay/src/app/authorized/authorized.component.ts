@@ -12,7 +12,6 @@ export class AuthorizedComponent implements OnInit {
   constructor(public router:Router) { }
 
   ngOnInit(): void {
-    //this.href = this.router.url;
     console.log(this.router.url);
     let myArray = this.router.url.split("=");
     console.log(myArray[1]);
