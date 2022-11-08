@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Route, Router } from '@angular/router';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-authorized',
@@ -16,7 +17,7 @@ export class AuthorizedComponent implements OnInit {
     let myArray = this.router.url.split("=");
     console.log(myArray[1]);
     myArray = myArray[1].split("&");
-    console.log(myArray[0]);
+    console.log(myArray[0]); environment.oauthToken="bearer"+myArray[0]
   }
 
 }
